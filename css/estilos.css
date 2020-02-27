@@ -53,16 +53,20 @@ header nav ul li a img:hover {
 .row {
     display: flex;
     background: white;
-    margin: 40px;
-    overflow: hidden; }
-
-.iconos, form {
-    position: absolute;
+    margin: 20px;
+    overflow: hidden;
 }
 
-
-.postsimagen {
+.iconos, form{
+    position: absolute;
+}
+.postsimagen{
     padding: 20px;
+}
+.postsimagen img{
+    width: 300px;
+    height: 300px;
+
 }
 
 @media screen and (max-width: 800px) {
