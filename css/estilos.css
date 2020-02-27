@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Sans-serif;
+    font-size: 15px;
+    background: rgb(171, 255, 253);
+}
+
+.contenedor {
+    background: white;
+    position: relative;
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    overflow: hidden; }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 15px 20px;
+}
+
+header nav ul li a img:hover {
+    background: #000;
+    color: #fff;
+}
+
+.imagen img {
+    width: 100%;
+    height: 300px;
+    vertical-align: center;
+    background: white;
+}
+
+.row {
+    display: flex;
+    background: white;
+    margin: 40px;
+    overflow: hidden; }
+
+.iconos, form {
+    position: absolute;
+}
+
+
+.postsimagen {
+    padding: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .main {
+        width: 100%;
+    }
+}
+
+/*# sourceMappingURL=estilos.css.map */
