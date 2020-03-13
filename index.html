@@ -10,59 +10,64 @@
 	<div class="contenedor">
 		<header>
 			<nav>
-				<ul>
+				<ul class="social">
 					<li>
 						<a href="#">
-							<img src="img/whatsapp.png"  width="30" height="30">
+							<img src="img/whatsapp.png">
 						</a>
 					</li>
 					<li>
 						<a href="#">
-							<img src="img/facebook.png" width="30" height="30">
+							<img src="img/facebook.png">
 						</a>
 					</li>
 					<li>
 						<a href="#">
-							<img src="img/instagram-bosquejado.png" width="30"  height="30" >
+							<img src="img/instagram-bosquejado.png">
 						</a>
 
 					</li>
 					<li><a href="#">
-						<img src="img/gmail.png" width="30" height="30">
+						<img src="img/gmail.png">
 					</a>
 					</li>
 				</ul>
 			</nav>
 			<nav>
-				<ul>
+				<ul class="menu">
 					<li><a href="index.html">Inicio</a></li>
-					<li><a href="acerca-de.html">Nosotros</a></li>
-					<li><a href="#">Servicios</a></li>
+					<li><a href="#perfildoctor">Nosotros</a>
+					<li><a href="#">Servicios</a>
+						<ul class="submenu">
+							<li>mision</li>
+							<li>vision</li>
+							<li>historia</li>
+						</ul>
+					</li>
 					<li><a href="#">Contactenos</a></li>
 				</ul>
 			</nav>
 		</header>
 
-		<div class="imagen">
-				<img src="img/portda.jpg" alt="">
+		<div class="imagen portada">
+				<img src="img/portda.jpg" alt=""/>
 		</div>
 
 		<div class="row">
 			<section class="postsimagen">
 				<div class="imagen">
-					<form action="">
-						    <p>Nombre:</p>
-						    <input tipe="text" class="field"/>
-
-						    <p>Asunto:</p>
-						    <input tipe="text" class="field"/>
-
-						    <p>Mensaje:</p>
-						    <textarea class="field"></textarea>
-							<input type="button" class="btn btn-green" value="enviar datos"/>
-					</form>
+					<form id="contact-form">
+						<input type="hidden" name="contact_number">
+						<label>Name</label>
+						<input type="text" name="user_name">
+						<label>Email</label>
+						<input type="email" name="user_email">
+						<label>Message</label>
+						<textarea name="message"></textarea>
+						<input type="submit" value="Send">
+				    </form>
 					<div class="imagendeform">
-						<img src="img/Laboratorio-Clinico-01-01-.jpg" alt="">
+						<img src="img/material-laboratorio.jpg"  alt="">
 					</div>
 				</div>
 			</section>
@@ -73,8 +78,8 @@
 					<li>Dra:Marcia Esclante</li>
 					<li>Tec: David Gutierrez</li>
 				</ul>
-				<div class= "imagen" >
-					<img src="img/herramientas-contenedores-ciencia_1308-6793.jpg" alt="">
+				<div class= "imagen doctores" >
+					<img src="img/diseno-marco-chica-trabajando-laboratorio-ciencias_1308-32678.jpg" alt="">
 				</div>
 			</section>
 			<section class="postsimagen">
@@ -85,12 +90,88 @@
 					<li><a href="#">Servicio a domicilio</a></li>
 				</ul>
 				<div class="imagen">
-					<img src="img/ef1b22c2ec2e6f1cb84027c1ce3ab730.png" >
+					<img src="img/Material-Laboratorio-EXAMEN-sangre.jpg"/>
+				</div>
 			</section>
 		</div>
 	</div>
 
-<p id="t">		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam eveniet laboriosam mollitia quam quis ratione. Consequatur doloribus dolorum facilis itaque nulla quas reiciendis soluta. Cumque harum iusto ullam voluptatibus?
+	<section id="perfildoctor">
+		<div class="card">
+			<figure>
+				<img src="img/jaj.svg">
+			</figure>
+			<div class="card_body">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere tenetur, magnam dignissimos sed veniam neque accusamus, dicta molestiae maxime iure, aliquam voluptatum obcaecati ratione nemo inventore qui quas fugit recusandae.</p>
+				<ul>
+					<li>jhgdf</li>
+					<li>fgsjfds</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="card">
+			<figure>
+				<img src="img/jaj.svg">
+			</figure>
+			<div class="card_body">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere tenetur, magnam dignissimos sed veniam neque accusamus, dicta molestiae maxime iure, aliquam voluptatum obcaecati ratione nemo inventore qui quas fugit recusandae.</p>
+				<ul>
+					<li>jhgdf</li>
+					<li>fgsjfds</li>
+				</ul>
+			</div>
+		</div>
+		<div class="card">
+			<figure>
+				<img src="img/jaj.svg">
+			</figure>
+			<div class="card_body">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere tenetur, magnam dignissimos sed veniam neque accusamus, dicta molestiae maxime iure, aliquam voluptatum obcaecati ratione nemo inventore qui quas fugit recusandae.</p>
+				<ul>
+					<li>jhgdf</li>
+					<li>fgsjfds</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="card">
+			<figure>
+				<img src="img/jaj.svg">
+			</figure>
+			<div class="card_body">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere tenetur, magnam dignissimos sed veniam neque accusamus, dicta molestiae maxime iure, aliquam voluptatum obcaecati ratione nemo inventore qui quas fugit recusandae.</p>
+				<ul>
+					<li>jhgdf</li>
+					<li>fgsjfds</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+
+
+<p id="t">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam eveniet laboriosam mollitia quam quis ratione. Consequatur doloribus dolorum facilis itaque nulla quas reiciendis soluta. Cumque harum iusto ullam voluptatibus?
 </p>
+
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+	<script type="text/javascript">
+		(function(){
+			emailjs.init('user_cGBp5dmFL2Sa2C0wZLjOx');
+		})();
+	</script>
+	<script type="text/javascript">
+		window.onload = function() {
+			document.getElementById('contact-form').addEventListener('submit', function(event) {
+				event.preventDefault();
+				// generate the contact number value
+				this.contact_number.value = Math.random() * 100000 | 0;
+				console.log(this)
+				emailjs.sendForm('contact_service', 'contact_form', this);
+			});
+		}
+	</script>
+
+
 </body>
 </html>
